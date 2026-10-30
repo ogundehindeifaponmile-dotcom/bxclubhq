@@ -1,5 +1,8 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "echo 'No build step needed for static site'",
   "outputDirectory": "public",
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }
