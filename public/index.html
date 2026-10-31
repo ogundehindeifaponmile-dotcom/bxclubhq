@@ -641,13 +641,13 @@ A confirmation email has been sent to your inbox. If you don't see it, please ch
 // PURE FRONTEND DATA (NO API KEYS)
 // ==========================================
 const products = [
-{ id: 1, name: "BX CLUB Candle — Summer in London", shortName: "Candle — Summer in London", collection: "summer", type: "candle", priceNGN: 65000, priceGBP: 35, salePriceNGN: 45500, salePriceGBP: 24.5, image: "https://res.cloudinary.com/dzosy1sic/image/upload/v1781517668/05a944f8-5de4-4e7f-bc2c-2d58086e4c71_iwpcme.png", description: "A fruity gourmand fragrance inspired by summer in London. Juicy black cherry, raspberry, and blackcurrant with creamy vanilla and tonka bean. Burns for 55-80 hours.", notes: ["Black Cherry", "Raspberry", "Blackcurrant", "Vanilla", "Tonka Bean", "Musk", "Sandalwood"] },
-{ id: 2, name: "BX CLUB Candle — Midnight in Lagos", shortName: "Candle — Midnight in Lagos", collection: "midnight", type: "candle", priceNGN: 65000, priceGBP: 35, salePriceNGN: 45500, salePriceGBP: 24.5, image: "https://res.cloudinary.com/dzosy1sic/image/upload/v1781571548/bcaaea51-cf78-4962-9929-afb4665ea903_mwftya.png", description: "A woody leather candle inspired by Lagos nights. Soft plum and peach give way to violet and rich leather, grounded by sandalwood and vanilla. Burns for 40-80 hours.", notes: ["Plum", "Peach", "Violet", "Leather", "Sandalwood", "Vanilla", "Musk"] },
-{ id: 3, name: "BX CLUB Diffuser — Summer in London", shortName: "Diffuser — Summer in London", collection: "summer", type: "diffuser", priceNGN: 65000, priceGBP: 35, salePriceNGN: 45500, salePriceGBP: 24.5, image: "https://res.cloudinary.com/dzosy1sic/image/upload/v1781519410/e64c5794-56a4-4a2d-a66a-3a3e57d8d34a_lltpuq.png", description: "A fruity gourmand diffuser inspired by summer in London. Reeds included. Lasts up to 3 months.", notes: ["Black Cherry", "Raspberry", "Blackcurrant", "Vanilla", "Tonka Bean", "Musk", "Sandalwood"] },
-{ id: 4, name: "BX CLUB Diffuser — Midnight in Lagos", shortName: "Diffuser — Midnight in Lagos", collection: "midnight", type: "diffuser", priceNGN: 65000, priceGBP: 35, salePriceNGN: 45500, salePriceGBP: 24.5, image: "https://res.cloudinary.com/dzosy1sic/image/upload/v1781519609/6dcc16c1-d477-4b03-9868-792ff0fa46c4_hmqnab.png", description: "A woody leather diffuser inspired by Lagos nights. Reeds included. Lasts up to 3 months.", notes: ["Plum", "Peach", "Violet", "Leather", "Sandalwood", "Vanilla", "Musk"] },
-{ id: 101, name: "BX CLUB — Summer in London Collection", shortName: "Summer in London Set", collection: "summer", type: "set", priceNGN: 156000, priceGBP: 85, salePriceNGN: 109200, salePriceGBP: 59.5, image: "https://res.cloudinary.com/dzosy1sic/image/upload/v1784329241/ChatGPT_Image_Jul_17_2026_04_00_18_PM_ajutoz.png", description: "The complete Summer in London collection. Candle + Diffuser + Accessories. The ultimate gift set.", notes: ["Candle", "Diffuser", "Instruments"] },
-{ id: 102, name: "BX CLUB — Midnight in Lagos Collection", shortName: "Midnight in Lagos Set", collection: "midnight", type: "set", priceNGN: 156000, priceGBP: 85, salePriceNGN: 109200, salePriceGBP: 59.5, image: "https://res.cloudinary.com/dzosy1sic/image/upload/v1784328986/ChatGPT_Image_Jul_17_2026_03_42_18_PM_gggxg8.png", description: "The complete Midnight in Lagos collection. Candle + Diffuser + Accessories. The ultimate gift set.", notes: ["Candle", "Diffuser", "Instruments"] },
-{ id: 105, name: "BX CLUB Instruments of Flame", shortName: "Instruments of Flame", collection: "accessories", type: "accessories", priceNGN: 37000, priceGBP: 20, salePriceNGN: 25900, salePriceGBP: 14, image: "https://res.cloudinary.com/dzosy1sic/image/upload/v1781519239/53ccd5ce-71e8-4b6f-ba12-646bfb8949f4_em3liv.png", description: "Essential tools for the discerning luminary owner. Includes Wick Trimmer, Wick Dipper, Candle Snuffer & elegant Tray.", notes: ["Wick Trimmer", "Wick Dipper", "Candle Snuffer", "Tray"] }
+{ id: 1, name: "BX CLUB Candle — Summer in London", shortName: "Candle — Summer in London", collection: "summer", type: "candle", priceNGN: 65000, priceGBP: 30, priceUSD: 38, salePriceNGN: 45500, salePriceGBP: 21, salePriceUSD: 26.6, image: "https://res.cloudinary.com/dzosy1sic/image/upload/v1781517668/05a944f8-5de4-4e7f-bc2c-2d58086e4c71_iwpcme.png", description: "A fruity gourmand fragrance inspired by summer in London. Juicy black cherry, raspberry, and blackcurrant with creamy vanilla and tonka bean. Burns for 55-80 hours.", notes: ["Black Cherry", "Raspberry", "Blackcurrant", "Vanilla", "Tonka Bean", "Musk", "Sandalwood"] },
+{ id: 2, name: "BX CLUB Candle — Midnight in Lagos", shortName: "Candle — Midnight in Lagos", collection: "midnight", type: "candle", priceNGN: 65000, priceGBP: 30, priceUSD: 38, salePriceNGN: 45500, salePriceGBP: 21, salePriceUSD: 26.6, image: "https://res.cloudinary.com/dzosy1sic/image/upload/v1781571548/bcaaea51-cf78-4962-9929-afb4665ea903_mwftya.png", description: "A woody leather candle inspired by Lagos nights. Soft plum and peach give way to violet and rich leather, grounded by sandalwood and vanilla. Burns for 40-80 hours.", notes: ["Plum", "Peach", "Violet", "Leather", "Sandalwood", "Vanilla", "Musk"] },
+{ id: 3, name: "BX CLUB Diffuser — Summer in London", shortName: "Diffuser — Summer in London", collection: "summer", type: "diffuser", priceNGN: 65000, priceGBP: 30, priceUSD: 38, salePriceNGN: 45500, salePriceGBP: 21, salePriceUSD: 26.6, image: "https://res.cloudinary.com/dzosy1sic/image/upload/v1781519410/e64c5794-56a4-4a2d-a66a-3a3e57d8d34a_lltpuq.png", description: "A fruity gourmand diffuser inspired by summer in London. Reeds included. Lasts up to 3 months.", notes: ["Black Cherry", "Raspberry", "Blackcurrant", "Vanilla", "Tonka Bean", "Musk", "Sandalwood"] },
+{ id: 4, name: "BX CLUB Diffuser — Midnight in Lagos", shortName: "Diffuser — Midnight in Lagos", collection: "midnight", type: "diffuser", priceNGN: 65000, priceGBP: 30, priceUSD: 38, salePriceNGN: 45500, salePriceGBP: 21, salePriceUSD: 26.6, image: "https://res.cloudinary.com/dzosy1sic/image/upload/v1781519609/6dcc16c1-d477-4b03-9868-792ff0fa46c4_hmqnab.png", description: "A woody leather diffuser inspired by Lagos nights. Reeds included. Lasts up to 3 months.", notes: ["Plum", "Peach", "Violet", "Leather", "Sandalwood", "Vanilla", "Musk"] },
+{ id: 101, name: "BX CLUB — Summer in London Collection", shortName: "Summer in London Set", collection: "summer", type: "set", priceNGN: 156000, priceGBP: 70, priceUSD: 90, salePriceNGN: 109200, salePriceGBP: 49, salePriceUSD: 63, image: "https://res.cloudinary.com/dzosy1sic/image/upload/v1784329241/ChatGPT_Image_Jul_17_2026_04_00_18_PM_ajutoz.png", description: "The complete Summer in London collection. Candle + Diffuser + Accessories. The ultimate gift set.", notes: ["Candle", "Diffuser", "Instruments"] },
+{ id: 102, name: "BX CLUB — Midnight in Lagos Collection", shortName: "Midnight in Lagos Set", collection: "midnight", type: "set", priceNGN: 156000, priceGBP: 70, priceUSD: 90, salePriceNGN: 109200, salePriceGBP: 49, salePriceUSD: 63, image: "https://res.cloudinary.com/dzosy1sic/image/upload/v1784328986/ChatGPT_Image_Jul_17_2026_03_42_18_PM_gggxg8.png", description: "The complete Midnight in Lagos collection. Candle + Diffuser + Accessories. The ultimate gift set.", notes: ["Candle", "Diffuser", "Instruments"] },
+{ id: 105, name: "BX CLUB Instruments of Flame", shortName: "Instruments of Flame", collection: "accessories", type: "accessories", priceNGN: 37000, priceGBP: 20, priceUSD: 25, salePriceNGN: 25900, salePriceGBP: 14, salePriceUSD: 17.5, image: "https://res.cloudinary.com/dzosy1sic/image/upload/v1781519239/53ccd5ce-71e8-4b6f-ba12-646bfb8949f4_em3liv.png", description: "Essential tools for the discerning luminary owner. Includes Wick Trimmer, Wick Dipper, Candle Snuffer & elegant Tray.", notes: ["Wick Trimmer", "Wick Dipper", "Candle Snuffer", "Tray"] }
 ];
 
 const faqs = [
@@ -676,9 +676,10 @@ const mmEligibleProducts = products.filter(p => p.type === 'candle' || p.type ==
 // ==========================================
 function getProductPrice(product) {
     const isNGN = currentCurrency === 'NGN';
-    const originalPrice = isNGN ? product.priceNGN : product.priceGBP;
-    const salePrice = isNGN ? product.salePriceNGN : product.salePriceGBP;
-    const symbol = isNGN ? '₦' : '£';
+    const isUSD = currentCurrency === 'USD';
+    const originalPrice = isNGN ? product.priceNGN : (isUSD ? product.priceUSD : product.priceGBP);
+    const salePrice = isNGN ? product.salePriceNGN : (isUSD ? product.salePriceUSD : product.salePriceGBP);
+    const symbol = isNGN ? '₦' : (isUSD ? '$' : '£');
     return { price: salePrice, originalPrice, symbol };
 }
 
@@ -775,7 +776,11 @@ function addToCart(productId, qty) {
     if(!product) return;
     const existing = cart.find(item => item.id === productId);
     if(existing) existing.quantity += qty;
-    else cart.push({ id: product.id, name: product.name, shortName: product.shortName, image: product.image, priceNGN: product.salePriceNGN, priceGBP: product.salePriceGBP, quantity: qty });
+    else cart.push({ 
+        id: product.id, name: product.name, shortName: product.shortName, image: product.image, 
+        priceNGN: product.salePriceNGN, priceGBP: product.salePriceGBP, priceUSD: product.salePriceUSD, 
+        quantity: qty 
+    });
     updateCartUI();
     showToast(product.shortName + ' added to cart');
 }
@@ -789,7 +794,7 @@ function updateCartQty(productId, delta) {
 
 function getCartTotal() {
     return cart.reduce((sum, item) => {
-        const price = currentCurrency === 'NGN' ? item.priceNGN : item.priceGBP;
+        const price = currentCurrency === 'NGN' ? item.priceNGN : (currentCurrency === 'USD' ? item.priceUSD : item.priceGBP);
         return sum + (price * item.quantity);
     }, 0);
 }
@@ -811,8 +816,8 @@ function updateCartUI() {
     
     footer.style.display = 'block';
     body.innerHTML = cart.map(item => {
-        const price = currentCurrency === 'NGN' ? item.priceNGN : item.priceGBP;
-        const symbol = currentCurrency === 'NGN' ? '₦' : '£';
+        const price = currentCurrency === 'NGN' ? item.priceNGN : (currentCurrency === 'USD' ? item.priceUSD : item.priceGBP);
+        const symbol = currentCurrency === 'NGN' ? '₦' : (currentCurrency === 'USD' ? '$' : '£');
         return `<div class="cart-item">
             <img src="${item.image}" alt="${item.shortName}">
             <div class="cart-item-info">
@@ -828,7 +833,7 @@ function updateCartUI() {
         </div>`;
     }).join('');
     
-    const symbol = currentCurrency === 'NGN' ? '₦' : '£';
+    const symbol = currentCurrency === 'NGN' ? '₦' : (currentCurrency === 'USD' ? '$' : '£');
     document.getElementById('cartTotal').textContent = symbol + formatPrice(getCartTotal());
 }
 
@@ -841,9 +846,6 @@ function toggleCart() {
 // ==========================================
 // STRIPE CHECKOUT INTEGRATION
 // ==========================================
-// ==========================================
-// STRIPE CHECKOUT INTEGRATION
-// ==========================================
 async function handleCheckout() {
     if(cart.length === 0) { showToast('Your cart is empty'); return; }
     
@@ -853,21 +855,31 @@ async function handleCheckout() {
     checkoutBtn.textContent = 'Processing...';
 
     try {
-        // FIX 1: Correct API endpoint URL
         const response = await fetch('https://bxclubhq.onrender.com/api/orders/create-checkout-session', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
-                items: cart.map(item => ({
-                    id: item.id,
-                    name: item.name,
-                    collection: 'general',
-                    // FIX 2: ALWAYS send the GBP price to Stripe to prevent the NGN -> USD multiplier bug
-                    price: item.priceGBP, 
-                    quantity: item.quantity
-                })),
-                // FIX 3: Explicitly tell the backend to charge in GBP
-                currency: 'gbp',
+                items: cart.map(item => {
+                    // Determine correct price and currency for Stripe
+                    let checkoutPrice, checkoutCurrency;
+                    if (currentCurrency === 'USD') {
+                        checkoutPrice = item.priceUSD;
+                        checkoutCurrency = 'usd';
+                    } else {
+                        // Fallback to GBP for both GBP and NGN to avoid Stripe NGN issues
+                        checkoutPrice = item.priceGBP;
+                        checkoutCurrency = 'gbp';
+                    }
+                    
+                    return {
+                        id: item.id,
+                        name: item.name,
+                        collection: 'general',
+                        price: checkoutPrice,
+                        quantity: item.quantity
+                    };
+                }),
+                currency: currentCurrency === 'USD' ? 'usd' : 'gbp',
                 customer: {} 
             })
         });
@@ -875,7 +887,6 @@ async function handleCheckout() {
         const data = await response.json();
         if (!response.ok) throw new Error(data.error || 'Checkout failed');
 
-        // Redirect to Stripe's secure hosted checkout page
         window.location.href = data.url;
     } catch (err) {
         console.error('Checkout error:', err);
@@ -884,6 +895,7 @@ async function handleCheckout() {
         checkoutBtn.textContent = originalText;
     }
 }
+
 // ==========================================
 // SUCCESS PAGE HANDLER
 // ==========================================
@@ -1057,12 +1069,16 @@ function addBundleToCart() {
     const bundleDiscount = Math.round(afterSaleTotal * (MM_DISCOUNT_PERCENT / 100));
     const bundleTotal = afterSaleTotal - bundleDiscount;
 
+    // Calculate base prices for all currencies
+    const baseNGN = Math.round((mmSelected1.salePriceNGN + mmSelected2.salePriceNGN) * 0.9);
+    const baseGBP = Math.round((mmSelected1.salePriceGBP + mmSelected2.salePriceGBP) * 0.9 * 100) / 100;
+    const baseUSD = Math.round((mmSelected1.salePriceUSD + mmSelected2.salePriceUSD) * 0.9 * 100) / 100;
+
     cart.push({
         id: 999000 + Date.now(),
         name: 'Mix & Match Bundle', shortName: 'Mix & Match Bundle',
         image: mmSelected1.image, 
-        priceNGN: currentCurrency === 'NGN' ? bundleTotal : Math.round(bundleTotal * 1800), 
-        priceGBP: currentCurrency === 'GBP' ? bundleTotal : Math.round(bundleTotal / 1800 * 100) / 100, 
+        priceNGN: baseNGN, priceGBP: baseGBP, priceUSD: baseUSD,
         quantity: 1, isBundle: true
     });
     updateCartUI();
@@ -1082,16 +1098,22 @@ function resetMixMatch() {
 // UI UTILS
 // ==========================================
 function toggleCurrency() {
-    currentCurrency = currentCurrency === 'NGN' ? 'GBP' : 'NGN';
+    const currencies = ['NGN', 'GBP', 'USD'];
+    const currentIndex = currencies.indexOf(currentCurrency);
+    currentCurrency = currencies[(currentIndex + 1) % currencies.length];
+    
     ['currencyBtn', 'currencyBtnMobile', 'cartCurrencyBtn'].forEach(id => {
         const el = document.getElementById(id);
         if(el) el.textContent = currentCurrency;
     });
+    
     renderProducts();
     updateCartUI();
     renderMixMatchGrid1();
     if (mmSelected1 && mmSelected2) showBundleSummary();
-    showToast('Currency switched to ' + (currentCurrency === 'NGN' ? '₦' : '£'));
+    
+    const symbol = currentCurrency === 'NGN' ? '₦' : (currentCurrency === 'USD' ? '$' : '£');
+    showToast('Currency switched to ' + symbol);
 }
 
 function toggleMobileMenu() { document.getElementById('mobileNav').classList.toggle('open'); }
